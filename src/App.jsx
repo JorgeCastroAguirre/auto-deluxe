@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <HashRouter>
+    <HashRouter basename="/auto-deluxe">
       <Routes>
         <Route path="/" element={<Padre/>}/>
         <Route path="/catalogo" element={<Catalogo/>} /> 
