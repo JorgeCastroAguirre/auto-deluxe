@@ -1,5 +1,5 @@
 
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import Padre from './Componentes/Padre'
 import Catalogo from './Pages/Catalogo'
 import './App.css'
@@ -11,14 +11,14 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Padre/>}/>
         <Route path="/catalogo" element={<Catalogo/>} /> 
         <Route path="/catalogo/:producto_id" element={<Producto/>} />
               
       </Routes>    
-    </BrowserRouter>  
+    </HashRouter>  
     </>
   )
 }
