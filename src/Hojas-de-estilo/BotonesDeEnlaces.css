@@ -1,0 +1,47 @@
+.contenedor_botones_de_enlaces{
+    width: 280px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: #C0C0C0;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.padre_boton_enlace{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+
+}
+.botones_enlaces{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.botones_enlaces:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #303030;
+    font-size: 12px;
+    background: linear-gradient(
+        to bottom,
+        #53080161 0%,
+        #53080161 25%,
+        #c4452b7a 50%,
+        #53080161 75%,
+        #53080161 100%
+    );
+    border-radius: 5px;
+}
